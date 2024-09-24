@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box{
+    width: 480px;
+    height: 550px;
+    position: relative;
+    margin: 11% 7%  ;
+    background: transparent;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 340px;
+    margin: 45px auto;
+    margin-top: 5%;
+    margin-bottom:2%;
+    position: relative;
+    box-shadow: 0 0 10px 9px #862424;
+    border-radius: 30px;
+    
+}
+
+.toggle-btn{
+    padding: 15px 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.h4{
+    font-size:40px;
+    float: left;
+    color: rgb(0, 0, 0);
+    margin:10px 20px;
+    margin-top: 30px;
+    font-family:italian;
+    
+    
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 180px;
+    height: 100%;
+    background: linear-gradient(to right,#f25757,#862424);
+    border-radius: 30px;
+    transition: .5s;
+    
+    
+}
+
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+    margin-left: 00%;
+}
+
+.social-icon a{
+    width: 80px;
+    margin: 0 50px;
+    box-shadow: 0 0 20px 0 #862424;
+    color: #000000;
+    border-radius: 50%;
+    
+}
+
+.ss{
+    margin-left:75px
+}
+
+.input-group{
+    margin-left: 30px;
+    margin-top: 10%;
+    top: 100px;
+    position: absolute;
+    width: 300px;
+    transition: .5s;
+    
+   
+
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    outline: none;
+    background: transparent;
+    
+    margin-bottom: 10%;
+    color: #000000;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#f44f4f, #862424);
+    border: 0;
+    border-radius: 30px;
+    margin-top: 15%;
+    box-shadow: 0 0 10px 9px #862424;
+    
+    
+
+}
+
+#login{
+    left: 80px;
+}
+
+#register{
+    left: 550px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}

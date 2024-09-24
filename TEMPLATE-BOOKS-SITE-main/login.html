@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title> book reviews login </title>
+        <link rel="stylesheet" href="style.css">
+
+       
+        
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+     
+        
+    </head>
+
+    <body>
+
+        <div class="hero">
+            <h4 class="h4">&ensp;&ensp;&ensp;&ensp;GOOD READS...<br>&ensp;&ensp;&ensp;&ensp;meet your next favourite book...</h4>
+            
+             <div class="form-box">
+                 <div class="button-box">
+                     <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()" style="font-size:15px">Create Account</button>
+                    <button type="button" class="toggle-btn"  onclick="register()" style="font-size:15px">Sign-in</button>
+                 </div> 
+                
+                <form id="login" class="input-group">
+                    UserName<input type="text" class="input-field"  required>
+                    Email Address<input type="text" class="input-field"  required>
+                    Password<input type="password" class="input-field"  required>
+                    
+                    
+                    
+                    <button  type="submit" class="submit-btn" style="font-size:15px">CREATE</button>
+                    
+                </form>
+                
+
+                <form id="register" class="input-group">
+                   UserName<input type="text" class="input-field" required>
+                    Password<input type="text" class="input-field"  required>
+                
+                    <button type="submit" class="submit-btn" style="font-size:15px" > <a href=page2.jpg>SUBMIT</a></button><br>
+
+                    
+                </form>
+             </div>
+
+             
+                
+             </div>
+             
+        </div>
+        <script>
+            var x=document.getElementById("login");
+            var y=document.getElementById("register");
+            var z=document.getElementById("btn");
+
+        function register(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="160px";
+
+
+        }
+
+        function login(){
+            x.style.left="50px";
+            y.style.left="750px";
+            z.style.left="0px";
+
+        }
+
+        </script>
+    </body>
+</html>
